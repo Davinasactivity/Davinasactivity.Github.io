@@ -11,6 +11,15 @@ color: yellow
   background-color: rgba(14, 197, 142, 0.329);
   size: 60%;
   margin: auto 20%;
+  padding: 10px;
+ 
 }
 u{
   color: blue
+}
+
+.container:hover{
+  background-color:rgb(238, 141, 198);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 1.5s;
+}
